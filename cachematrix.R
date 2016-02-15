@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 #the matrix is passed in and m is set to NULL, get brings back the matrix
 #set inverse should be called indirectly through the cacheSolve function below
-#getinverse gets set to what ever m is, m is outside of this global variable (NULL the first time the function is called directly with new input)
+#getinverse() gets set to what ever m is, m is outside of this global variable (NULL the first time the function is called directly with new input)
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL								
